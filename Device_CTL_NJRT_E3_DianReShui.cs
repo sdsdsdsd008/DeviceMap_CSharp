@@ -61,7 +61,7 @@ namespace SdcSoft.Devices
 
         internal override DeviceFieldForUI getPowerInfo()
         {
-            var deviceFieldForUI = getBaseInfoFields()[KEY_POINT_RAN_SHAO_QI];
+            var deviceFieldForUI = getCountFields()[KEY_POINT_RAN_SHAO_QI];
             int count = GetJiaReZuCount();
             deviceFieldForUI.setValue(count);
             return deviceFieldForUI;
