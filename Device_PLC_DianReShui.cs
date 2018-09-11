@@ -9,7 +9,7 @@ namespace SdcSoft.Devices
         
         public Device_PLC_DianReShui()
         {
-            this.BYTE_ARRAY_LENGTH = 490;
+            this.BYTE_ARRAY_LENGTH = 245;
         }
 
         

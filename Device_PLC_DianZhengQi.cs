@@ -9,7 +9,7 @@ namespace SdcSoft.Devices
         internal const string KEY_POINT_JIA_RE_ZU = "mo_qidongjiarezushu";
         public Device_PLC_DianZhengQi()
         {
-            this.BYTE_ARRAY_LENGTH = 490;
+            this.BYTE_ARRAY_LENGTH = 245;
         }
         
         public override List<DeviceFieldForUI> getDeviceFocusFields()
