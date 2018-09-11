@@ -77,6 +77,41 @@ namespace SdcSoft.Devices.map
             map.Add("ex_Axiangguoliubaojing", ByteField.Init(new Meta.PLC.ExceptionField(), "ex_Axiangguoliubaojing", 235, 2, "A相过流报警", 8));
             map.Add("ex_Bxiangguoliubaojing", ByteField.Init(new Meta.PLC.ExceptionField(), "ex_Bxiangguoliubaojing", 235, 2, "B相过流报警", 9));
             map.Add("ex_Cxiangguoliubaojing", ByteField.Init(new Meta.PLC.ExceptionField(), "ex_Cxiangguoliubaojing", 235, 2, "C相过流报警"   , 10));
+
+            map.Add("oc_1#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_1#jiarezu", 237, 2, "1#加热组反馈", 1));
+            map.Add("oc_2#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_2#jiarezu", 237, 2, "2#加热组反馈", 1));
+            map.Add("oc_3#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_3#jiarezu", 237, 2, "3#加热组反馈", 1));
+            map.Add("oc_4#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_4#jiarezu", 237, 2, "4#加热组反馈", 1));
+            map.Add("oc_5#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_5#jiarezu", 237, 2, "5#加热组反馈", 1));
+            map.Add("oc_6#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_6#jiarezu", 237, 2, "6#加热组反馈", 1));
+            map.Add("oc_7#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_7#jiarezu", 237, 2, "7#加热组反馈", 1));
+            map.Add("oc_8#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_8#jiarezu", 237, 2, "8#加热组反馈", 1));
+            map.Add("oc_9#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_9#jiarezu", 237, 2, "9#加热组反馈", 1));
+            map.Add("oc_10#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_10#jiarezu", 237, 2, "10#加热组反馈", 1));
+            map.Add("oc_11#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_11#jiarezu", 237, 2, "11#加热组反馈", 1));
+            map.Add("oc_12#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_12#jiarezu", 237, 2, "12#加热组反馈", 1));
+            map.Add("oc_13#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_13#jiarezu", 237, 2, "13#加热组反馈", 1));
+            map.Add("oc_14#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_14#jiarezu", 237, 2, "14#加热组反馈", 1));
+            map.Add("oc_15#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_15#jiarezu", 237, 2, "15#加热组反馈", 1));
+            map.Add("oc_16#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_16#jiarezu", 237, 2, "16#加热组反馈", 1));
+            map.Add("oc_17#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_17#jiarezu", 239, 2, "17#加热组反馈", 1));
+            map.Add("oc_18#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_18#jiarezu", 239, 2, "18#加热组反馈", 1));
+            map.Add("oc_19#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_19#jiarezu", 239, 2, "19#加热组反馈", 1));
+            map.Add("oc_20#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_20#jiarezu", 239, 2, "20#加热组反馈", 1));
+            map.Add("oc_21#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_21#jiarezu", 239, 2, "21#加热组反馈", 1));
+            map.Add("oc_22#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_22#jiarezu", 239, 2, "22#加热组反馈", 1));
+            map.Add("oc_23#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_23#jiarezu", 239, 2, "23#加热组反馈", 1));
+            map.Add("oc_24#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_24#jiarezu", 239, 2, "24#加热组反馈", 1));
+            map.Add("oc_25#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_25#jiarezu", 239, 2, "25#加热组反馈", 1));
+            map.Add("oc_26#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_26#jiarezu", 239, 2, "26#加热组反馈", 1));
+            map.Add("oc_27#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_27#jiarezu", 239, 2, "27#加热组反馈", 1));
+            map.Add("oc_28#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_28#jiarezu", 239, 2, "28#加热组反馈", 1));
+            map.Add("oc_29#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_29#jiarezu", 239, 2, "29#加热组反馈", 1));
+            map.Add("oc_30#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_30#jiarezu", 239, 2, "30#加热组反馈", 1));
+            map.Add("oc_31#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_31#jiarezu", 239, 2, "31#加热组反馈", 1));
+            map.Add("oc_32#jiarezu", ByteField.Init(new Meta.PLC.OpenCloseField(), "oc_32#jiarezu", 239, 2, "32#加热组反馈", 1));
+
+
         }
     }
 }
