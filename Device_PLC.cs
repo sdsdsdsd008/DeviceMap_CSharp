@@ -15,13 +15,13 @@ namespace SdcSoft.Devices
             switch (field.getBytesLength())
             {
                 case 0:
-                    if(field.haveValue(bytes[field.getStartIndex()+1], bytes[field.getStartIndex()]))
+                    if (field.haveValue(bytes[field.getStartIndex() + 1], bytes[field.getStartIndex()]))
                     {
                         this.AddField(field.getDeviceFieldForUI());
                     }
                     break;
                 case 2:
-                    if (field.haveValue(bytes[field.getStartIndex()+1], bytes[field.getStartIndex()]))
+                    if (field.haveValue(bytes[field.getStartIndex() + 1], bytes[field.getStartIndex()]))
                     {
                         this.AddField(field.getDeviceFieldForUI());
                     }

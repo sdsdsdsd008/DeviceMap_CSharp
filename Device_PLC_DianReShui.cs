@@ -11,7 +11,6 @@ namespace SdcSoft.Devices
         {
             this.BYTE_ARRAY_LENGTH = 245;
         }
-
         
         public override List<DeviceFieldForUI> getDeviceFocusFields()
         {
@@ -29,9 +28,15 @@ namespace SdcSoft.Devices
             return list;
         }
 
+        public override int getMode()
+        {
+            throw new System.NotImplementedException();
+        }
+
         internal override DeviceFieldForUI getPowerInfo()
         {
             return getMockFields()[KEY_POINT_JIA_RE_ZU];
         }
+        
     }
 }

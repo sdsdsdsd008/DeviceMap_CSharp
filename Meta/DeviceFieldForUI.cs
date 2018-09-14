@@ -47,7 +47,7 @@ namespace SdcSoft.Devices.Meta
         {
             return string.Format(valuestring,value);
         }
-        public void setValuestring(string valuestring)
+        public void setValueString(string valuestring)
         {
             this.valuestring = valuestring;
         }

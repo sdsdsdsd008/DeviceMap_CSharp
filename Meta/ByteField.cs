@@ -128,7 +128,7 @@ namespace SdcSoft.Devices.Meta
             fieldForUI.setName(getName());
             fieldForUI.setTitle(getTitle());
             fieldForUI.setValue(getValue());
-            fieldForUI.setValuestring(getValueString());
+            fieldForUI.setValueString(getValueString());
             return fieldForUI;
         }
 

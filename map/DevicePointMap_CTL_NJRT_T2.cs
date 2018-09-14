@@ -13,17 +13,17 @@ namespace SdcSoft.Devices.map
             map.Add("_lengningbeng", ByteField.Init(new Meta.CTL_NJRT.BaseInfoField(), "_lengningbeng", 0, 0, "冷凝泵", false));
             #endregion
 
-            map.Add(SdcSoftDevice.KEY_POINT_SYSTEM_STATUS, ByteField.Init(new Meta.CTL_NJRT.BaseInfoField(), SdcSoftDevice.KEY_POINT_SYSTEM_STATUS, 0, 2, "系统状态", CTL_NJRT_Common_ValueMaps.coms_status));
+            map.Add(SdcSoftDevice.KEY_POINT_SYSTEM_STATUS, ByteField.Init(new Meta.CTL_NJRT.BaseInfoField(), SdcSoftDevice.KEY_POINT_SYSTEM_STATUS, 3, 2, "系统状态", CTL_NJRT_Common_ValueMaps.coms_status));
 
-            map.Add(SdcSoftDevice.KEY_POINT_RUN_LIFE, ByteField.Init(new Meta.CTL_NJRT.BaseInfoField(), SdcSoftDevice.KEY_POINT_RUN_LIFE, 21, 2, "运行时间"));
+            map.Add(SdcSoftDevice.KEY_POINT_RUN_LIFE, ByteField.Init(new Meta.CTL_NJRT.BaseInfoField(), SdcSoftDevice.KEY_POINT_RUN_LIFE, 53, 2, "运行时间"));
 
             map.Add(SdcSoftDevice.KEY_POINT_RUN_DAYS, ByteField.Init(new Meta.CTL_NJRT.BaseInfoField(), SdcSoftDevice.KEY_POINT_RUN_DAYS, 0, 0, "运行天数","天"));
 
             map.Add(SdcSoftDevice.KEY_POINT_RUN_HOURS, ByteField.Init(new Meta.CTL_NJRT.BaseInfoField(), SdcSoftDevice.KEY_POINT_RUN_HOURS, 0, 0, "运行小时数","时"));
 
-            map.Add(SdcSoftDevice.KEY_POINT_POWER, ByteField.Init(new Meta.CTL_NJRT.PowerField(), SdcSoftDevice.KEY_POINT_POWER, 0, 0, "燃料类型", DevicePointMap.coms_power));
+            map.Add(SdcSoftDevice.KEY_POINT_POWER, ByteField.Init(new Meta.CTL_NJRT.PowerField(), SdcSoftDevice.KEY_POINT_POWER, 87, 2, "燃料类型", DevicePointMap.coms_power));
 
-            map.Add(SdcSoftDevice.KEY_POINT_MEDIA, ByteField.Init(new Meta.CTL_NJRT.MediaField(), SdcSoftDevice.KEY_POINT_MEDIA, 0, 0, "介质类型", DevicePointMap.coms_media));
+            map.Add(SdcSoftDevice.KEY_POINT_MEDIA, ByteField.Init(new Meta.CTL_NJRT.MediaField(), SdcSoftDevice.KEY_POINT_MEDIA, 89, 2, "介质类型", DevicePointMap.coms_media));
 
             
             map.Add("oc_ranshaoqiqitingkongzhi", ByteField.Init(new Meta.CTL_NJRT.OpenCloseField(), "oc_ranshaoqiqitingkongzhi", 9, 2, "燃烧器启停控制", 0, DevicePointMap.coms_start_stop));
